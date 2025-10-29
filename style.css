@@ -383,6 +383,27 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .about-btn {
   margin-top: 70px;
 }
+.about-flex {
+  display: flex;
+  align-items: center;      /* vertically center image + text */
+  justify-content: center;  /* centers the whole section */
+  gap: 50px;                /* adds space between image and text */
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+.about-photo {
+  width: 350px;             /* adjust size here */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;                  /* make text take remaining space */
+  line-height: 1.7;
+  font-size: 18px;
+}
 /*=====================================
   Portfolio CSS
 =======================================*/
