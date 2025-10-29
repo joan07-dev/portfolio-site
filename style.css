@@ -369,8 +369,8 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 
 #about .col-md-6 img {
   width: 100%;
-  max-width: 10000px; /* adjust to make picture bigger */
-  height: auto;
+  max-width: 1000px; /* adjust to make picture bigger */
+  height: 1000;
   border-radius: 10px;
   display: block;
   margin: 0 auto;
