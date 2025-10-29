@@ -360,26 +360,36 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 /*=====================================
   About Me CSS
 =======================================*/
-.about-section .about-content {
+#about .row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px; /* space between image and text */
-  flex-wrap: wrap; /* keeps it responsive */
+  flex-wrap: wrap;
 }
 
-.about-section .about-photo {
-  flex: 1;
-  max-width: 400px; /* adjust image width */
+#about .col-md-6 img {
   width: 100%;
+  max-width: 500px; /* adjust to make picture bigger */
   height: auto;
-  border-radius: 8px;
-  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
-.about-section .about-text {
-  flex: 2;
-  max-width: 600px;
+#about .col-md-6 {
+  flex: 1;
+  text-align: left;
+}
+
+/* make sure other sections (portfolio, services, etc.) aren't affected */
+#portfolio .row,
+#services .row,
+#blog .row,
+#feedback .row {
+  display: block !important;
+  align-items: unset !important;
+  justify-content: unset !important;
+  flex-wrap: unset !important;
 }
 
 /*=====================================
