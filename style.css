@@ -362,7 +362,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 =======================================*/
 .about-photo {
   width: 100%;
-  max-width: 500px; /* makes image bigger but still fits layout */
+  max-width: 800px; /* makes image bigger but still fits layout */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -371,7 +371,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 
 @media (min-width: 992px) {
   .about-photo {
-    max-width: 600px; /* larger on bigger screens */
+    max-width: 1000px; /* larger on bigger screens */
   }
 }
 /*=====================================
