@@ -360,6 +360,13 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 /*=====================================
   About Me CSS
 =======================================*/
+.about-photo {
+  width: 500px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 40px;
+}
 .about-me p {
     font-size: 18px;
     margin: 20px 0;
