@@ -360,20 +360,28 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 /*=====================================
   About Me CSS
 =======================================*/
-.about-photo {
-  width: 100%;
-  max-width: 800px; /* makes image bigger but still fits layout */
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px; /* optional for soft corners */
+.about-section .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; /* space between image and text */
+  flex-wrap: wrap; /* keeps it responsive */
 }
 
-@media (min-width: 992px) {
-  .about-photo {
-    max-width: 1000px; /* larger on bigger screens */
-  }
+.about-section .about-photo {
+  flex: 1;
+  max-width: 400px; /* adjust image width */
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
 }
+
+.about-section .about-text {
+  flex: 2;
+  max-width: 600px;
+}
+
 /*=====================================
   Portfolio CSS
 =======================================*/
