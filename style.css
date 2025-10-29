@@ -360,13 +360,20 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 /*=====================================
   About Me CSS
 =======================================*/
-.about-me img {
+.about-photo {
   width: 100%;
+  max-width: 500px; /* makes image bigger but still fits layout */
   height: auto;
-  object-fit: cover;
-  border-radius: 8px; /* optional for rounded corners */
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px; /* optional for soft corners */
 }
 
+@media (min-width: 992px) {
+  .about-photo {
+    max-width: 600px; /* larger on bigger screens */
+  }
+}
 /*=====================================
   Portfolio CSS
 =======================================*/
