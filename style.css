@@ -366,23 +366,7 @@ input[type="submit"]:hover, button[type="submit"]:hover {
   border-radius: 5px;
   object-fit: cover;
   margin-right: 40px;
-}
-.about-me p {
-    font-size: 18px;
-    margin: 20px 0;
-}
-.about-me .borderd-btn {
-    color: #000;
-}
-.about-me .boxed-btn:hover {
-	color: #000;
-}
-.about-me .borderd-btn:hover{
-    color: #fff;
-}
-.about-btn {
-  margin-top: 70px;
-}
+	
 .about-flex {
   display: flex;
   align-items: stretch;   /* makes both columns the same height */
