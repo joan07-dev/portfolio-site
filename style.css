@@ -385,8 +385,8 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 }
 .about-flex {
   display: flex;
-  align-items: center;      /* vertically center image + text */
-  justify-content: center;  /* centers the whole section */
+  align-items: left;      /* vertically center image + text */
+  justify-content: left;  /* centers the whole section */
   gap: 50px;                /* adds space between image and text */
   margin: 50px auto;
   max-width: 1200px;
