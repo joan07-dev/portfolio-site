@@ -386,14 +386,14 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 .about-photo {
   flex: 1;               /* photo takes equal space */
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .about-text {
   flex: 1;               /* text block takes equal space */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertically centers the text */
+  justify-content: right; /* vertically centers the text */
   line-height: 1.7;
 }
 /*=====================================
