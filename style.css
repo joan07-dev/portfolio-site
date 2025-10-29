@@ -360,42 +360,13 @@ input[type="submit"]:hover, button[type="submit"]:hover {
 /*=====================================
   About Me CSS
 =======================================*/
-.about-photo {
-  width: 500px;
-  height: auto;
-  border-radius: 5px;
-  object-fit: cover;
-  margin-right: 40px;
-	
-.about-flex {
-  display: flex;
-  align-items: stretch;   /* makes both columns the same height */
-  justify-content: center;
-  gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.about-photo img {
+.about-me img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;     /* ensures image scales and fills its container */
-  border-radius: 8px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* optional for rounded corners */
 }
 
-.about-photo {
-  flex: 1;               /* photo takes equal space */
-  display: flex;
-  align-items: left;
-}
-
-.about-text {
-  flex: 1;               /* text block takes equal space */
-  display: flex;
-  flex-direction: column;
-  justify-content: right; /* vertically centers the text */
-  line-height: 1.7;
-}
 /*=====================================
   Portfolio CSS
 =======================================*/
